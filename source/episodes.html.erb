@@ -1,0 +1,41 @@
+<!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/ALL_headers.png')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>All Streams</h1>
+              <span class="subheading">All of our streams since the start.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+<!-- Past Streams -->
+    <div class="container" id="upcoming_streams">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <%# for episode in data.episodes.episode_list %>
+          <% data.episodes.episode_list[0..10].each do |episode| %>
+            <% if episode.status != "upcoming" %>
+              <div class="post-preview">
+                <a href="<%= episode.link_url %>" target="_blank">
+                  <% if episode.status == "new" %>
+                    <div class="alert alert-secondary"><h2 class="post-title"><span class="badge badge-secondary">New</span></h2></div>
+                  <% end %>
+                  <img src="img/<%= episode.img %>.png">
+                  <h2 class="post-title"><%= episode.title %></h2>
+                  <h3 class="post-subtitle"><%= episode.description %></h3>
+                </a>
+                <p class="post-meta">Streamed on <%= episode.show_time %></p>
+              </div>
+            <% end %>
+          <% end %>
+          <div class="clearfix">
+            <a class="btn btn-primary" href="episodes.html">Load More</a>
+          </div>
+        </div>
+      </div>
+    </div>

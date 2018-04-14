@@ -1,0 +1,416 @@
+---
+Chris:
+    - {
+      title: "#1:    Dead of Winter",
+      img: "tp10_dead_of_winter",
+      description: "This sentencdee is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=GU8BMM1H5zE",
+      purchase_link: "https://boardgamegeek.com/boardgame/150376/dead-winter-crossroads-game"
+    }
+    - {
+      title: "#2:    Caverna: The Cave Farmers",
+      img: "tp10_caverna_cave_farmers",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/102794/caverna-cave-farmers"
+    }
+
+    - {
+      title: "#3:    Betrayal at House on the Hill",
+      img: "tp10_betrayal_at_house_on_the_hill",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=GN6nclUoklw",
+      purchase_link: "https://boardgamegeek.com/boardgame/10547/betrayal-house-hill"
+    }
+
+    - {
+      title: "#4:    Escape: The Curse of the Temple",
+      img: "tp10_escape_the_curse_of_the_temple",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/113294/escape-curse-temple"
+    }
+
+    - {
+      title: "#5:    Star Realms",
+      img: "tp10_star_realms",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/147020/star-realms"
+    }
+
+    - {
+      title: "#6:    Roll for the Galaxy",
+      img: "tp10_roll_for_the_galaxy",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/132531/roll-galaxy"
+    }
+
+    - {
+      title: "#7:    One Night Ultimate Werewolf",
+      img: "tp10_one_night_ultimate_werewolf",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=TDvq6iA8z7c",
+      purchase_link: "https://boardgamegeek.com/boardgame/147949/one-night-ultimate-werewolf"
+    }
+
+    - {
+      title: "#8:    Codenames",
+      img: "tp10_codenames",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=tNI417stgvI",
+      purchase_link: "https://boardgamegeek.com/boardgame/178900/codenames"
+    }
+
+    - {
+      title: "#9:    Specter Ops",
+      img: "tp10_specter_ops",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/155624/specter-ops"
+    }
+
+    - {
+      title: "#10:   The Resistance: Avalon",
+       img: "tp10_the_resistance_avalon",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=9DYtQtpEkV0&feature=youtu.be",
+      purchase_link: "https://boardgamegeek.com/boardgame/128882/resistance-avalon"
+    }
+
+
+
+
+Wendy:
+    - {
+      title: "#1:    Dead of Winter",
+      img: "tp10_dead_of_winter",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=GU8BMM1H5zE",
+      purchase_link: "https://boardgamegeek.com/boardgame/150376/dead-winter-crossroads-game"
+    }
+
+    - {
+      title: "#2:    Munchkin",
+      img: "tp10_munchkin",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=NPUYKgl6Kd8",
+      purchase_link: "https://boardgamegeek.com/boardgame/1927/munchkin"
+    }
+
+    - {
+      title: "#3:    Star Realms",
+      img: "tp10_star_realms",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/147020/star-realms"
+    }
+
+    - {
+      title: "#4:    Pathfinder",
+      img: "tp10_pathfinder",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=httCY0_kNgc",
+      purchase_link: "https://rpggeek.com/rpg/1627/pathfinder-roleplaying-game"
+    }
+
+    - {
+      title: "#5:    Love Letter",
+      img: "tp10_love_letter",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=aOtEd-0mglc",
+      purchase_link: "https://boardgamegeek.com/boardgame/129622/love-letter"
+    }
+
+    - {
+      title: "#6:    Sushi Go!",
+      img: "tp10_sushi_go",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=vo24Cocfup8",
+      purchase_link: "https://boardgamegeek.com/boardgame/133473/sushi-go"
+    }
+
+    - {
+      title: "#7:    Firefly",
+      img: "tp10_firefly",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=kuWl81A4ZJY",
+      purchase_link: "https://boardgamegeek.com/boardgame/138161/firefly-game"
+    }
+
+    - {
+      title: "#8:    Betrayal at House on the Hill",
+      img: "tp10_betrayal_at_house_on_the_hill",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=GN6nclUoklw",
+      purchase_link: "https://boardgamegeek.com/boardgame/10547/betrayal-house-hill"
+    }
+
+    - {
+      title: "#9:    One Night Ultimate Werewolf",
+      img: "tp10_one_night_ultimate_werewolf",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=TDvq6iA8z7c",
+      purchase_link: "https://boardgamegeek.com/boardgame/147949/one-night-ultimate-werewolf"
+    }
+
+    - {
+      title: "#10:   Codenames",
+      img: "tp10_codenames",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=tNI417stgvI",
+      purchase_link: "https://boardgamegeek.com/boardgame/178900/codenames"
+    }
+
+
+
+
+Ryan:
+    - {
+      title: "#1:    Magic: The Gathering",
+      img: "tp10_magic_the_gathering",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/463/magic-gathering"
+    }
+
+    - {
+      title: "#2:    Zombicide Season 2: Prison Outbreak",
+      img: "tp10_zombicide_season_2_prison_outbreak",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=dJ2YLPEQJSw&feature=youtu.be",
+      purchase_link: "https://boardgamegeek.com/boardgame/137988/zombicide-season-2-prison-outbreak"
+    }
+
+    - {
+      title: "#3:    Pathfinder",
+      img: "tp10_pathfinder",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=httCY0_kNgc",
+      purchase_link: "https://rpggeek.com/rpg/1627/pathfinder-roleplaying-game"
+    }
+
+    - {
+      title: "#4:    Specter Ops",
+      img: "tp10_specter_ops",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/155624/specter-ops"
+    }
+
+    - {
+      title: "#5:    Betrayal at House on the Hill",
+      img: "tp10_betrayal_at_house_on_the_hill",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=GN6nclUoklw",
+      purchase_link: "https://boardgamegeek.com/boardgame/10547/betrayal-house-hill"
+    }
+
+    - {
+      title: "#6:    Star Wars: X-Wing Miniatures Game",
+      img: "tp10_star_wars_x-wing _miniatures_game",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/103885/star-wars-x-wing-miniatures-game"
+    }
+
+    - {
+      title: "#7:    Escape: The Curse of the Temple",
+      img: "tp10_escape_the_curse_of_the_temple",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/113294/escape-curse-temple"
+    }
+
+    - {
+      title: "#8:    Forbidden Desert",
+      img: "tp10_forbidden_desert",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=b6w3iuVIdd8",
+      purchase_link: "https://boardgamegeek.com/boardgame/136063/forbidden-desert"
+    }
+
+    - {
+      title: "#9:    Gloom",
+      img: "tp10_gloom",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=Z6hMV3uWmLk&feature=youtu.be",
+      purchase_link: "https://boardgamegeek.com/boardgame/12692/gloom"
+    }
+
+    - {
+      title: "#10:   Pandemic",
+      img: "tp10_pandemic",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=RSGGK_-dZcU&feature=youtu.be",
+      purchase_link: "https://boardgamegeek.com/boardgame/30549/pandemic"
+    }
+
+
+
+Ashley:
+    - {
+      title: "#1:    Zombicide Season 2: Prison Outbreak",
+      img: "tp10_zombicide_season_2_prison_outbreak",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=dJ2YLPEQJSw&feature=youtu.be",
+      purchase_link: "https://boardgamegeek.com/boardgame/137988/zombicide-season-2-prison-outbreak"
+
+    }
+
+    - {
+      title: "#2:    Magic: The Gathering",
+      img: "tp10_magic_the_gathering",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/463/magic-gathering"
+    }
+
+    - {
+      title: "#3:    Pandemic",
+      img: "tp10_pandemic",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=RSGGK_-dZcU&feature=youtu.be",
+      purchase_link: "https://boardgamegeek.com/boardgame/30549/pandemic"
+    }
+
+    - {
+      title: "#4:    Sentinels of the Multiverse",
+      img: "tp10_sentinels_of_the_multiverse",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=OZkyqIbMvkA&feature=youtu.be",
+      purchase_link: "https://boardgamegeek.com/boardgame/102652/sentinels-multiverse"
+    }
+
+    - {
+      title: "#5:    Specter Ops",
+      img: "tp10_specter_ops",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/155624/specter-ops"
+    }
+
+    - {
+      title: "#6:    Mysterium",
+      img: "tp10_mysterium",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=sU2-IvpLJLM",
+      purchase_link: "https://boardgamegeek.com/boardgame/181304/mysterium"
+    }
+
+    - {
+      title: "#7:    Betrayal at House on the Hill",
+      img: "tp10_betrayal_at_house_on_the_hill",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=GN6nclUoklw",
+      purchase_link: "https://boardgamegeek.com/boardgame/10547/betrayal-house-hill"
+    }
+
+    - {
+      title: "#8:    Shadows over Camelot",
+      img: "tp10_shadows_over_camelot",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=NNlDV-p2onE&feature=youtu.be",
+      purchase_link: "https://boardgamegeek.com/boardgame/15062/shadows-over-camelot"
+    }
+
+    - {
+      title: "#9:    Citadels",
+      img: "tp10_citadels",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=JlnOXKGUPeE",
+      purchase_link: "https://boardgamegeek.com/boardgame/478/citadels"
+    }
+
+    - {
+      title: "#10:  Seasons",
+      img: "tp10_seasons",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/108745/seasons"
+    }
+
+
+
+
+Nooblets:
+    - {
+      title: "#1:    Codenames",
+      img: "tp10_codenames",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=tNI417stgvI",
+      purchase_link: "https://boardgamegeek.com/boardgame/178900/codenames"
+    }
+
+    - {
+      title: "#2:    Sheriff of Nottingham",
+      img: "tp10_sheriff_of_nottingham",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/157969/sheriff-nottingham"
+    }
+
+    - {
+      title: "#3:    Spot it!",
+      img: "tp10_spot_it",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/63268/spot-it"
+    }
+
+    - {
+      title: "#4:    Roll For It! Deluxe Edition",
+      img: "tp10_roll_for_it_deluxe_edition",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/164812/roll-it-deluxe-edition"
+    }
+
+    - {
+      title: "#5:    Abraca...what?",
+      img: "tp10_abraca_what",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/163930/abracawhat"
+    }
+
+    - {
+      title: "#6:    Concept",
+      img: "tp10_concept",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/147151/concept"
+    }
+
+    - {
+      title: "#7:    One Night Ultimate Werewolf",
+      img: "tp10_one_night_ultimate_werewolf",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=TDvq6iA8z7c",
+      purchase_link: "https://boardgamegeek.com/boardgame/147949/one-night-ultimate-werewolf"
+    }
+
+    - {
+      title: "#8:    Dungeon Fighter",
+      img: "tp10_dungeon_fighter",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "",
+      purchase_link: "https://boardgamegeek.com/boardgame/102548/dungeon-fighter"
+    }
+
+    - {
+      title: "#9:    Love Letter",
+      img: "tp10_love_letter",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=aOtEd-0mglc",
+      purchase_link: "https://boardgamegeek.com/boardgame/129622/love-letter"
+    }
+
+    - {
+      title: "#10:   The Resistance: Avalon",
+      img: "tp10_the_resistance_avalon",
+      description: "This sentence is an example of a description.  A description is a prime example of some text.  Text can be found in books.  Books are read using eyes.  The illuminati has eyes, so sentence is illuminati confirmed.",
+      video_link: "https://www.youtube.com/watch?v=9DYtQtpEkV0&feature=youtu.be",
+      purchase_link: "https://boardgamegeek.com/boardgame/128882/resistance-avalon"
+    }

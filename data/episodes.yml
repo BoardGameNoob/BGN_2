@@ -1,0 +1,110 @@
+---
+episode_list:
+  # Stream
+  - {
+    title: "Noobs Play D&D: Season 1 Episode 3",
+    img: "",
+    description: "Join us this Sunday and watch us noobs play Dungeons and Dragons!",
+    link_url: "https://www.twitch.tv/boardgamenoobs",
+    show_time: "April 7, 2018",
+    status: "upcoming"
+  }
+  # Stream 11
+  - {
+    title: "Little Noobs Play D&D: Season 1 Episode 5",
+    img: "740p_little_noobs_DnD_S1_E5",
+    description: "",
+    link_url: "https://www.twitch.tv/videos/247843254",
+    show_time: "April 7, 2018",
+    status: "new"
+  }
+  # Stream 10
+  - {
+    title: "BGN Game Night Live! - Dr Who: Fluxx, Guillotine, & Incan Gold",
+    img: "740p_fluxx_guillotine_incan_gold",
+    description: "",
+    link_url: "https://www.twitch.tv/videos/245208021",
+    show_time: "March 31, 2018",
+    status: ""
+  }
+  # Stream 9
+  - {
+    title: "Little Noobs Play D&D: Season 1 Episode 4",
+    img: "740p_little_noobs_DnD_S1_E4",
+    description: "D&D...Kids...Tomb of Annihilation!  What could be more...weird?  Not much, especially the way these kids play!",
+    link_url: "https://www.youtube.com/watch?v=OvZUyUjnTyY&t=3s",
+    show_time: "March 24, 2018",
+    status: ""
+  }
+  # Stream 8
+  - {
+    title: "BGN Game Night Live! - Dr Who: Time of the Daleks",
+    img: "740p_time_of_the_daleks",
+    description: "",
+    link_url: "https://www.twitch.tv/videos/239925416",
+    show_time: "March 17, 2018",
+    status: ""
+  }
+  # Stream 7
+  - {
+    title: "Little Noobs Play D&D: Season 1 Episode 3",
+    img: "740p_little_noobs_DnD_S1_E3",
+    description: "'I GRAB A STICK!' Wait...what?",
+    link_url: "https://www.youtube.com/watch?v=q9_qdA4E2Wo&t=4400s",
+    show_time: "March 10, 2018",
+    status: ""
+  }
+  # Stream 6
+  - {
+    title: "Noobs Play D&D: Season 1 Episode 2",
+    img: "740p_noobs_DnD_S1_E2",
+    description: "How many 1s can we roll in a single session? Apparently more than statistically possible! Yes ladies and gentlemen, we broke statistics! (Which is fine, cause I hated that class!)",
+    link_url: "https://www.youtube.com/watch?v=4apSVQn-72M&t=8s",
+    show_time: "March 3, 2018",
+    status: ""
+  }
+  # Stream 5
+  - {
+    title: "Little Noobs Play D&D: Season 1 Episode 2",
+    img: "740p_little_noobs_DnD_S1_E2",
+    description: "The little noobs are back at it! It's a D&D slugfest and things get whacky!",
+    link_url: "https://www.youtube.com/watch?v=KxKFxHINf8s&t=14s",
+    show_time: "February 24, 2018",
+    status: ""
+  }
+  # Stream 4
+  - {
+    title: "BGN Gamenight Live! Zombicide Black Plague",
+    img: "740p_zombicide_black_plague",
+    description: "We take on a brutal Zombicide Black Plague scenario from the interwebs. Ouch!",
+    link_url: "https://www.youtube.com/watch?v=qQEz82sRVTc",
+    show_time: "February 18, 2018",
+    status: ""
+  }
+  # Stream 3
+  - {
+    title: "BGN Gamenight Live! - Pandemic on the Brink / Welcome to the Dungeon",
+    img: "740p_pandemic_on_the_brink_welcome_to_the_dungeon",
+    description: "Tense game of Pandemic on the Brink that comes down to the very last second! Then we had some time left, so why not a quick game of Welcome to the Dungeon...that also came down to the wire!",
+    link_url: "https://www.youtube.com/watch?v=bfrWvtW2q1s",
+    show_time: "February 17, 2018",
+    status: ""
+  }
+  # Stream 2
+  - {
+    title: "Little Noobs Play D&D: Season 1 Episode 1",
+    img: "740p_little_noobs_DnD_S1_S1",
+    description: "Join the Little Noobs for their first foray into table top roleplaying!  They're funnier and smarter than the grownups!",
+    link_url: "https://www.youtube.com/watch?v=WrAz0h4P1zw&t=504s",
+    show_time: "February 10, 2018",
+    status: ""
+  }
+  # Stream 1
+  - {
+    title: "Noobs Play D&D: Season 1 Episode 1",
+    img: "740p_noobs_DnD_S1_S1",
+    description: "We begin our D&D 5E live stream.  Meet the characters!  Begin the journey!  Find out how much tact a walnut has! Watch the wizard get hired out for parties!  ",
+    link_url: "https://www.youtube.com/watch?v=ZarHv9KVRMU&t=115s",
+    show_time: "February 3, 2018",
+    status: ""
+  }

@@ -1,0 +1,67 @@
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/ALL_headers.png')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Our Favorite Board Games</h1>
+              <span class="subheading">Each of our top ten favorites.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Top Ten --> 
+    <% people = ["Chris", "Wendy", "Ryan", "Ashley", "Nooblets"] %>   
+    <div id="top"></div>
+    <div="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <% for person in people %>
+            <a class="nav-link" href="#<%= person %>"><h1 class="text-center"><%= link_to person.possessive + " Top Ten", "#" + person %></h1></a>
+            <% if person == "Nooblets" %>
+              <a href="#<%= person %>"><div class="text-center"><img width="500" height="280" src="img/<%= person.downcase %>.png"></div></a>
+            <% else %>
+              <a href="#<%= person %>"><div class="text-center"><img width="250" height="280" src="img/<%= person.downcase %>.png"></div></a>
+            <% end %>
+            <div style="margin-bottom:3%"></div>
+          <% end %>
+          <div style="margin-bottom:5%"></div>
+            <% for person in people %>
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header">
+                    <h1 id="<%= person %>" style="display:inline-block" style="position:relative"><%= person.possessive %> Top Ten</h1>
+                    <a class="card-link" href="#top" style="float:right" style="position:relative">Back To Top</a>
+                  </div>
+
+                 <div id="<%= person %>" class="collapse show">
+                  <div class="card-body">
+                    <ul class="list-group">
+                    <% for board_game in data.top_tens[person] %>
+                      <li class="list-group-item">
+                        <pre><h1><%= board_game.title %></h1></pre>
+                        <img src="img/<%= board_game.img %>.jpg">
+                        <p><%= board_game.description %></p>
+                        <% if board_game.video_link != "" %>
+                          <p>Interested in this board game?  <a href="<%= board_game.video_link %>" target="_blank">Check out our playthrough video</a>, or <a href="<%= board_game.purchase_link %>" target="_blank">consider purchasing!</a></p>
+                        <% else %>
+                          <p>Interested in this board game?  <a href="<%= board_game.purchase_link %>" target="_blank">Consider purchasing!</a></p>
+                        <% end %>
+                      </li>
+                    <% end %>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div style="margin-bottom:5%"></div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+
