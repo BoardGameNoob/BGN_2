@@ -1,5 +1,5 @@
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/NO_TEXT_home_header.png')">
+    <header class="masthead" style="background-image: url('img/NO_TEXT_home_header.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -14,7 +14,7 @@
     </header>
 
 
-    <div class="container">
+   <!--  <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <h2>Join us and get notified of our streams!</h2>
@@ -29,7 +29,12 @@
               </div>
             </div>
           </form>
-          <div style="margin-top:2%"></div>
+          <div style="margin-top:2%"></div> -->
+
+
+
+
+
           <!-- Carousel -->
           <!-- <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -74,18 +79,40 @@
             </a>
 
           </div> -->
+
+
+          
         </div>
       </div>
     </div>
 
     <div style="margin-top:2%"></div>
     
+
+
     <!-- Alerts -->
-    <!-- <div class="container">
-    <div class="alert alert-primary alert-dismissible fade show">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <strong>We are streaming right now!</strong> <a href="https://www.twitch.tv/boardgamenoobs" target="_blank" class="alert-link">Join us</a>!
+    <p id="hour"></p>
+     <div class="container" id="alert">
+      <div class="alert alert-primary alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>We are streaming right now!  </strong><a href="https://www.twitch.tv/boardgamenoobs" target="_blank" class="alert-link">Join us!</a>
+      </div>
     </div>
+    <script>
+      var d = new Date();
+      if (d.getUTCHours() != 23 && d.getUTCHours() != 24 && d.getUTCDay() != 6) {
+        var a = document.getElementById("alert");
+        a.style.display = "none";
+      }
+    </script>
+
+
+
+    <!-- <div class="container">
+      <div class="alert alert-primary alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>We are streaming right now!</strong> <a href="https://www.twitch.tv/boardgamenoobs" target="_blank" class="alert-link">Join us</a>!
+      </div>
     </div> -->
 
 
@@ -114,7 +141,7 @@
                 <% if episode.status == "new" %>
                     <div class="alert alert-secondary"><h2 class="post-title"><span class="badge badge-secondary">New</span></h2></div>
                 <% end %>
-                <img src="img/<%= episode.img %>.png">
+                <img src="img/<%= episode.img %>.jpg">
                 <h2 class="post-title"><%= episode.title %></h2>
                 <h3 class="post-subtitle"><%= episode.description %></h3>
               </a>
@@ -122,82 +149,6 @@
             </div>
             <% end %>
           <% end %>
-<!--
-          <div class="post-preview">
-            <a href="https://www.youtube.com/watch?v=4apSVQn-72M&t=8s" target="_blank">
-              <h2 class="post-title"><span class="badge badge-secondary">New</span></h2>
-              <h2 class="post-title">Noobs Play D&D: Season 1 Episode 2</h2>
-              <h3 class="post-subtitle">
-                How many 1s can we roll in a single session?  Apparently more than statistically possible!  Yes ladies and gentlemen, we broke statistics!  (Which is fine, cause I hated that class!)
-              </h3>
-            </a>
-            <p class="post-meta">Streamed
-              on March 3, 2018</p>
-          </div>
-	  <div class="post-preview">
-            <a href="https://www.youtube.com/watch?v=KxKFxHINf8s&t=14s" target="_blank">
-              <h2 class="post-title">
-                Little Noobs Play D&D: Season 1 Episode 2
-              </h2>
-              <h3 class="post-subtitle">
-                The little noobs are back at it!  It's a D&D slugfest and things get whacky!
-              </h3>
-            </a>
-            <p class="post-meta">Streamed
-              on February 24, 2018</p>
-          </div>
-          <div class="post-preview">
-            <a href="https://www.youtube.com/watch?v=qQEz82sRVTc" target="_blank">
-              <h2 class="post-title">
-                BGN Gamenight Live! Zombicide Black Plague
-              </h2>
-              <h3 class="post-subtitle">
-                We take on a brutal Zombicide Black Plague scenario from the interwebs.  Ouch!
-
-              </h3>
-            </a>
-            <p class="post-meta">Streamed
-              on February 18, 2018</p>
-          </div>
-          <div class="post-preview">
-            <a href="https://www.youtube.com/watch?v=bfrWvtW2q1s" target="_blank">
-              <h2 class="post-title">
-                BGN Gamenight Live! - Pandemic on the Brink / Welcome to the Dungeon
-              </h2>
-              <h3 class="post-subtitle">
-                Tense game of Pandemic on the Brink that comes down to the very last second!  Then we had some time left, so why not a quick game of Welcome to the Dungeon...that also came down to the wire!
-              </h3>
-            </a>
-            <p class="post-meta">Streamed
-              on February 17, 2018</p>
-          </div>
-          <div class="post-preview">
-            <a href="https://www.youtube.com/watch?v=WrAz0h4P1zw&t=16s" target="_blank">
-              <h2 class="post-title">
-                Little Noobs Play D&D: Season 1 Episode 1
-              </h2>
-              <h3 class="post-subtitle">
-                Join the Little Noobs for their first foray into table top roleplaying!  They're funnier and smarter than the grownups!
-              </h3>
-            </a>
-            <p class="post-meta">Streamed
-              on February 10, 2018</p>
-          </div>
-          <div class="post-preview">
-            <a href="https://www.youtube.com/watch?v=ZarHv9KVRMU&t=115s" target="_blank">
-              <h2 class="post-title">
-                Noobs Play D&D: Season 1 Episode 1
-              </h2>
-              <h3 class="post-subtitle">
-                We begin our D&D 5E live stream.  Meet the characters!  Begin the journey!  Find out how much tact a walnut has! Watch the wizard get hired out for parties!  
-              </h3>
-            </a>
-            <p class="post-meta">Streamed
-              on February 3, 2018</p>
-          </div>
-          <hr>
-
--->
 
           <!-- Pager -->
           <div class="clearfix">

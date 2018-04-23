@@ -2,12 +2,32 @@
 episode_list:
   # Stream
   - {
-    title: "Noobs Play D&D: Season 1 Episode 3",
+    title: "Little Noobs Play D&D: Season 1 Episode 6",
     img: "",
-    description: "Join us this Sunday and watch us noobs play Dungeons and Dragons!",
+    description: "Join us for some DnD fun!",
     link_url: "https://www.twitch.tv/boardgamenoobs",
-    show_time: "April 7, 2018",
+    show_time: "April 28, 2018",
     status: "upcoming"
+  }
+
+  #Stream 13
+  - {
+    title: "BGN Gamenight Live! - Sheriff of Nottingham",
+    img: "740p_game_night_sheriff_of_nottingham",
+    description: "",
+    link_url: "https://www.twitch.tv/videos/247843254",
+    show_time: "April 21, 2018",
+    status: "new"
+  }
+
+  #Stream 12
+  - {
+    title: "Noobs Play D&D: Season 1 Episode 3",
+    img: "740p_noobs_DnD_S1_E3",
+    description: "Watch out for the Rear Guard!  Oh Lordy, look out for them!",
+    link_url: "https://www.youtube.com/watch?v=an6-T5VidoY",
+    show_time: "April 15, 2018",
+    status: ""
   }
   # Stream 11
   - {
@@ -16,7 +36,7 @@ episode_list:
     description: "",
     link_url: "https://www.twitch.tv/videos/247843254",
     show_time: "April 7, 2018",
-    status: "new"
+    status: ""
   }
   # Stream 10
   - {
