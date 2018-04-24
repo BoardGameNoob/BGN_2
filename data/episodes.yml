@@ -14,8 +14,8 @@ episode_list:
   - {
     title: "BGN Gamenight Live! - Sheriff of Nottingham",
     img: "740p_game_night_sheriff_of_nottingham",
-    description: "",
-    link_url: "https://www.twitch.tv/videos/247843254",
+    description: "One of our favorite games with some great additions from the Merry Men expansion!",
+    link_url: "https://www.youtube.com/watch?v=jpAcZMeeKFU",
     show_time: "April 21, 2018",
     status: "new"
   }

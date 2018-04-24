@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/FINAL_bgn_logo.png">
+
+    <title>Board Game Noobs</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <!-- <li>
+              <div class="dropdown">
+                <button type="button" class="crop-btn" data-toggle="dropdown">
+                  Our Streams<i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#upcoming_streams">Upcoming Streams</a>
+                  <a class="dropdown-item" href="#past_streams">Our Past Streams</a>
+                </div>
+              </div>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#upcoming_streams">Upcoming Streams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="episodes.html">All Streams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="top_ten.html">Top 10's</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+        <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/NO_TEXT_home_header.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>Board Game Noobs</h1>
+              <span class="subheading">The Offical BGN Website</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+   <!--  <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2>Join us and get notified of our streams!</h2>
+          <div style="margin-top:2%"></div>
+          <form>
+            <div class="form-row">
+              <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+              </div>
+              <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-block btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+          <div style="margin-top:2%"></div> -->
+
+
+
+
+
+          <!-- Carousel -->
+          <!-- <div id="demo" class="carousel slide" data-ride="carousel">
+
+
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+              <li data-target="#demo" data-slide-to="5"></li>
+              <li data-target="#demo" data-slide-to="6"></li>
+            </ul>
+
+
+            <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/.png" alt="">
+                    <div class="carousel-caption">
+                      <h4><span class="badge badge-light">New</span>  </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/.png" alt="">
+                    <div class="carousel-caption">
+                      <h4></h4>
+                    </div>
+                  </div>
+            </div>
+
+
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div> -->
+
+
+          
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:2%"></div>
+    
+
+
+    <!-- Alerts -->
+    <p id="hour"></p>
+     <div class="container" id="alert">
+      <div class="alert alert-primary alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>We are streaming right now!  </strong><a href="https://www.twitch.tv/boardgamenoobs" target="_blank" class="alert-link">Join us!</a>
+      </div>
+    </div>
+    <script>
+      var d = new Date();
+      if (d.getUTCHours() != 23 && d.getUTCHours() != 24 && d.getUTCDay() != 6) {
+        var a = document.getElementById("alert");
+        a.style.display = "none";
+      }
+    </script>
+
+
+
+    <!-- <div class="container">
+      <div class="alert alert-primary alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>We are streaming right now!</strong> <a href="https://www.twitch.tv/boardgamenoobs" target="_blank" class="alert-link">Join us</a>!
+      </div>
+    </div> -->
+
+
+
+          <!-- Past Streams -->
+          <div class="container" id="upcoming_streams">
+          <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="jumbotron" id="upcoming_streams">
+              <div class="post-preview">
+                <h2 class="post-title"><span class="badge badge-secondary">Coming Soon</span></h2>
+                <a href="https://www.twitch.tv/boardgamenoobs" target="_blank">
+                  <h2 class="post-title">Little Noobs Play D&D: Season 1 Episode 6</h2>
+                </a>
+                <p class="post-meta">Streaming
+                April 28, 2018 at 7:00PM (EST)</p>
+              </div>
+              </div>
+              <hr id="past_streams">
+              <div class="post-preview">
+              <a href="https://www.youtube.com/watch?v=jpAcZMeeKFU" target="_blank">
+                    <div class="alert alert-secondary"><h2 class="post-title"><span class="badge badge-secondary">New</span></h2></div>
+                <img src="img/740p_game_night_sheriff_of_nottingham.jpg">
+                <h2 class="post-title">BGN Gamenight Live! - Sheriff of Nottingham</h2>
+                <h3 class="post-subtitle">One of our favorite games with some great additions from the Merry Men expansion!</h3>
+              </a>
+              <p class="post-meta">Streamed on April 21, 2018</p>
+            </div>
+              <div class="post-preview">
+              <a href="https://www.youtube.com/watch?v=an6-T5VidoY" target="_blank">
+                <img src="img/740p_noobs_DnD_S1_E3.jpg">
+                <h2 class="post-title">Noobs Play D&D: Season 1 Episode 3</h2>
+                <h3 class="post-subtitle">Watch out for the Rear Guard!  Oh Lordy, look out for them!</h3>
+              </a>
+              <p class="post-meta">Streamed on April 15, 2018</p>
+            </div>
+              <div class="post-preview">
+              <a href="https://www.twitch.tv/videos/247843254" target="_blank">
+                <img src="img/740p_little_noobs_DnD_S1_E5.jpg">
+                <h2 class="post-title">Little Noobs Play D&D: Season 1 Episode 5</h2>
+                <h3 class="post-subtitle"></h3>
+              </a>
+              <p class="post-meta">Streamed on April 7, 2018</p>
+            </div>
+              <div class="post-preview">
+              <a href="https://www.twitch.tv/videos/245208021" target="_blank">
+                <img src="img/740p_fluxx_guillotine_incan_gold.jpg">
+                <h2 class="post-title">BGN Game Night Live! - Dr Who: Fluxx, Guillotine, & Incan Gold</h2>
+                <h3 class="post-subtitle"></h3>
+              </a>
+              <p class="post-meta">Streamed on March 31, 2018</p>
+            </div>
+
+          <!-- Pager -->
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="episodes.html">More Streams &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UC6PeUuy33O6z0pByG6BZzDQ" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="https://twitter.com/boardgamenoobs" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/boardgamenoobs" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <!-- <li class="list-inline-item">
+                <a href="https://www.instagram.com/boardgamenoobs/" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li> -->
+              <li class="list-inline-item">
+                <a href="https://www.twitch.tv/boardgamenoobs" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitch fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; The Board Game Noobs Website 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>
